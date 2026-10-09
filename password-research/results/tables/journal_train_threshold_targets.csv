@@ -1,0 +1,12 @@
+held_length,cutoff_frequency,boundary_multiplicity,boundary_selected_bins,bins_strictly_above,training_anonymous_bins,budget,boundary_fraction,training_fractional_positive_bins,training_constant_fraction,held_anonymous_bins,held_fractional_positive_bins,held_observed_fraction,status
+6,444,25,7,9993,51819859,10000,0.28,10000.0,0.00019297621014368257,5418646,4854.6,0.0008959064681472088,training-only frequency-threshold membership; not operational candidate coverage
+7,505,42,21,9979,50566139,10000,0.5,10000.0,0.00019776079799171535,6672366,2848.5,0.0004269100346114107,training-only frequency-threshold membership; not operational candidate coverage
+8,476,25,19,9981,42351889,10000,0.76,10000.0,0.0002361169769782878,14886616,3761.6,0.00025268334992989677,training-only frequency-threshold membership; not operational candidate coverage
+9,580,25,15,9985,48487624,10000,0.6,10000.0,0.00020623819389459051,8750881,1014.4,0.00011591975710788433,training-only frequency-threshold membership; not operational candidate coverage
+10,606,21,11,9989,49733243,10000,0.5238095238095238,10000.0,0.00020107275127825467,7505262,458.0,6.1023852331870625e-05,training-only frequency-threshold membership; not operational candidate coverage
+11,624,27,7,9993,53424472,10000,0.25925925925925924,10000.0,0.00018718013722250732,3814033,126.0,3.303589664798391e-05,training-only frequency-threshold membership; not operational candidate coverage
+12,628,19,12,9988,54839352,10000,0.631578947368421,10000.0,0.0001823508053122145,2399153,53.0,2.2091129661176258e-05,training-only frequency-threshold membership; not operational candidate coverage
+13,630,15,11,9989,55995813,10000,0.7333333333333333,10000.0,0.00017858478097282024,1242692,13.0,1.0461160126563944e-05,training-only frequency-threshold membership; not operational candidate coverage
+14,630,15,3,9997,56504225,10000,0.2,10000.0,0.00017697791625316515,734280,5.0,6.809391512774419e-06,training-only frequency-threshold membership; not operational candidate coverage
+15,625,27,3,9997,51714132,10000,0.1111111111111111,10000.0,0.00019337074051634475,5524373,95.0,1.7196521668612892e-05,training-only frequency-threshold membership; not operational candidate coverage
+16,630,15,7,9993,56948302,10000,0.4666666666666667,10000.0,0.0001755978606701917,290203,9.0,3.1012773816948826e-05,training-only frequency-threshold membership; not operational candidate coverage

@@ -1,0 +1,7 @@
+source,evidence,account_mass,anonymous_bins,length_groups,terms,strings
+LinkedIn v2 full,DP empirical aggregate,174292189.0,57431283,0.0,CC0,none
+LinkedIn v2 summed length lists,DP empirical aggregate,174296614.0,57431558,64.0,CC0,none
+Yahoo v1 all,DP empirical aggregate,69301337.0,33895873,0.0,CC0,none
+HIBP fixed public panel,API empirical counts,,8,3.0,official API documentation,eight user-provided teaching examples
+Local synthetic controls,controlled synthetic observations,,26700,,project license,not retained
+EFF vocabulary,generation vocabulary,,7776,,CC BY 4.0 EFF policy,"ordinary words, not credentials"

@@ -1,0 +1,2 @@
+model,budget,coefficient_per_character,odds_ratio_per_character,intercept,held_length_log_loss,held_length_constant_log_loss,account_vs_distinct,anonymous_bins,structural_model_status,validation
+length_only_logistic,10000,-0.5782560109373863,0.5608756751529043,-3.447662407663203,0.0045219322608535985,0.0045219322561676715,distinct-bin weighted,20305262.0,DATA UNAVAILABLE,"leave one length group out; diagnostic interpolation/extrapolation, not independent human-password prediction"

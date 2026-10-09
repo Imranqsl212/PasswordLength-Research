@@ -1,0 +1,5 @@
+condition,rho_length_frequency_distinct,rho_length_frequency_account,rho_length_frequency_midrank_distinct,rho_length_frequency_midrank_account,anonymous_distinct_bins,released_account_mass,length_groups,inference
+all,-0.0929547958156835,-0.2946712436996487,0.0929547958156835,0.2946712436996487,20305262,78828083,2,descriptive exact weighted statistic on released histogram; no p-value or sampling CI
+frequency_at_least_2,-0.16666439943195668,-0.2846453097660957,0.16666439943195668,0.2846453097660957,12136688,70659509,2,descriptive exact weighted statistic on released histogram; no p-value or sampling CI
+frequency_at_least_5,-0.04565459393571928,-0.1571260691148037,0.04565459393571928,0.1571260691148037,1581750,46730355,2,descriptive exact weighted statistic on released histogram; no p-value or sampling CI
+remove_pooled_top100,-0.09294644312819904,-0.26857323343701583,0.09294644312819904,0.26857323343701583,20305162,75110616,2,descriptive exact weighted statistic on released histogram; no p-value or sampling CI

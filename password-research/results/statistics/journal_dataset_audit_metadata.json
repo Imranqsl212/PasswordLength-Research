@@ -1,0 +1,248 @@
+{
+  "audit_date": "2026-10-06",
+  "retrieved_utc": "2026-10-06T14:40:14.014020+00:00",
+  "scope": "metadata only; no credential datasets or password strings downloaded",
+  "records": {
+    "figshare_verbal_materials": {
+      "url": "https://api.figshare.com/v2/articles/28804049",
+      "http_response_sha256": "0c1fb0c0dcfb157186ae2318689e38d7f2ce12776c4811d343a575ecacfbe217",
+      "selected_metadata": {
+        "id": 28804049,
+        "title": "<b>User study materials</b>",
+        "doi": "10.6084/m9.figshare.28804049.v1",
+        "description": "<p dir=\"ltr\">This repo contains user study code and themes used for verbal password creation and password policy studies. Additionally, the survey questions and consent forms are also included.</p>",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "authors": [
+          {
+            "id": 21098120,
+            "full_name": "Eunsoo Kim",
+            "first_name": "Eunsoo",
+            "last_name": "Kim",
+            "is_active": true,
+            "url_name": "Eunsoo_Kim",
+            "orcid_id": "0000-0002-5856-5528"
+          }
+        ],
+        "version": 1,
+        "published_date": "2025-04-17T05:49:43Z",
+        "url_public_html": "https://figshare.com/articles/dataset/_b_User_study_materials_b_/28804049",
+        "files": [
+          {
+            "id": 53693969,
+            "name": "Password_Creation_Strategies.xlsx",
+            "size": 14888,
+            "supplied_md5": "b64cb41c7ff357e852134a78b0bfd5e4"
+          },
+          {
+            "id": 53693972,
+            "name": "Reasons_for_Recall_Failures.xlsx",
+            "size": 31655,
+            "supplied_md5": "9afe47ca90f002d231eb1b2d3819a511"
+          },
+          {
+            "id": 53693975,
+            "name": "Password_Creation_Strategies(study2).xlsx",
+            "size": 13695,
+            "supplied_md5": "295c2af4d6401253e25bea4989a0497f"
+          },
+          {
+            "id": 53693978,
+            "name": "Reasons_for_Recall_Failures(Study2).xlsx",
+            "size": 19858,
+            "supplied_md5": "64bf6af3e11f2d359c4acab1af00c016"
+          },
+          {
+            "id": 53732399,
+            "name": "User_Study_Survey_Questions.pdf",
+            "size": 51900,
+            "supplied_md5": "46ee96a69fdbbaa29b93d3d687119395"
+          },
+          {
+            "id": 53732402,
+            "name": "Research Consent Form - Verbal Password Study.pdf",
+            "size": 251366,
+            "supplied_md5": "1e7353f0da5ad070ce1d32e5fa31d9f1"
+          }
+        ]
+      }
+    },
+    "newcastle_osf_node": {
+      "url": "https://api.osf.io/v2/nodes/3cd9h/",
+      "http_response_sha256": "6d1819f903c731c66982d5838d5f6829eeb23017bd3aa6c62a8b8768719f7058",
+      "selected_metadata": {
+        "id": "3cd9h",
+        "attributes": {
+          "title": "Effect of Fear and Stress on Password Choice",
+          "description": "Analysis of the impact of fear and stress on password choice.",
+          "category": "project",
+          "custom_citation": null,
+          "date_created": "2017-07-25T07:44:52.369743",
+          "date_modified": "2020-11-26T20:40:29.253634",
+          "registration": false,
+          "preprint": false,
+          "fork": false,
+          "collection": false,
+          "tags": [
+            "affect",
+            "authentication",
+            "fear",
+            "password choice",
+            "password strength",
+            "security",
+            "stress"
+          ],
+          "access_requests_enabled": true,
+          "node_license": null,
+          "analytics_key": "",
+          "current_user_can_comment": false,
+          "current_user_permissions": [
+            "read"
+          ],
+          "current_user_is_contributor": false,
+          "current_user_is_contributor_or_group_member": false,
+          "wiki_enabled": true,
+          "public": true,
+          "subjects": []
+        }
+      }
+    },
+    "newcastle_osf_files": {
+      "url": "https://api.osf.io/v2/nodes/3cd9h/files/osfstorage/",
+      "http_response_sha256": "7690074f17bb5c0e0255db112aa34265994de82a0626a8179bef7ab32d856d5a",
+      "selected_metadata": {
+        "files": [
+          {
+            "id": "5a260b7cd6ffbb000f3b6e24",
+            "name": "Fear_Stress_Password_Choice.pdf",
+            "kind": "file",
+            "size": 785189,
+            "date_created": "2017-12-05T02:59:08.986981Z",
+            "date_modified": "2017-12-05T02:59:08.986981"
+          },
+          {
+            "id": "598dbd18b83f690253e1f63f",
+            "name": "Registration_fear_stress.pdf",
+            "kind": "file",
+            "size": 120500,
+            "date_created": "2017-08-11T14:20:08.276808Z",
+            "date_modified": "2017-08-11T14:20:08.276808"
+          },
+          {
+            "id": "5f1d9dd361875e00b5316b65",
+            "name": "Gross2020 - Registration_fear_stress_published - OSF-3cd9h.pdf",
+            "kind": "file",
+            "size": 143590,
+            "date_created": "2020-07-26T15:14:27.662264Z",
+            "date_modified": "2020-07-26T15:14:27.662264"
+          },
+          {
+            "id": "59d3513c6c613b02c68f3901",
+            "name": "Analysis_Report_Fear_Stress_Parent.pdf",
+            "kind": "file",
+            "size": 629209,
+            "date_created": "2017-10-03T08:58:36.539731Z",
+            "date_modified": "2020-07-20T14:35:16.662253"
+          }
+        ],
+        "pagination": {
+          "first": null,
+          "last": null,
+          "prev": null,
+          "next": null,
+          "meta": {
+            "total": 4,
+            "per_page": 10
+          }
+        }
+      }
+    },
+    "zenodo_generated_entry": {
+      "url": "https://zenodo.org/api/records/18711498",
+      "http_response_sha256": "15960d045799e17eca70c06f0132fca0f35033e65701d99f9a76e3ca05032093",
+      "selected_metadata": {
+        "title": "Fine-Grained Generated Password Entry Dataset w/Analysis Script",
+        "description": "<p>This dataset consists of nearly 80k password entry events from 99 participants typing in 4,916 randomly generated passwords.</p>\n<p>Further, we provide an introductory analysis script (with optional requirement.txt for your python environment) to showcase some of the analysis possible with this dataset.&nbsp;</p>",
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "access_right": "open",
+        "creators": [
+          {
+            "name": "Sadik, John",
+            "affiliation": "University of Tennessee at Knoxville",
+            "orcid": "0009-0007-8988-5501"
+          }
+        ],
+        "publication_date": "2026-02-20",
+        "doi": "10.5281/zenodo.18711498",
+        "files": [
+          {
+            "name": "error_model_Total_bad_keys.pkl",
+            "size": 278610
+          },
+          {
+            "name": "utility.py",
+            "size": 9714
+          },
+          {
+            "name": "algorithms.ipynb",
+            "size": 849947
+          },
+          {
+            "name": "dataset_guide.md",
+            "size": 8371
+          },
+          {
+            "name": "Trials.csv",
+            "size": 8383315
+          },
+          {
+            "name": "requirements.txt",
+            "size": 1337
+          },
+          {
+            "name": "Participants.csv",
+            "size": 362206
+          },
+          {
+            "name": "quantitative_analysis.ipynb",
+            "size": 54811
+          },
+          {
+            "name": "graphing.py",
+            "size": 8186
+          },
+          {
+            "name": "error_model_Incorrect_submissions.pkl",
+            "size": 234674
+          },
+          {
+            "name": "final_exploratory_model.pkl",
+            "size": 352017
+          }
+        ]
+      }
+    },
+    "newcastle_osf_children": {
+      "url": "https://api.osf.io/v2/nodes/3cd9h/children/",
+      "http_response_sha256": "337a5845bf62ccbe2bee6d47834c9d6317bc033ab935af60bc66d75c688ef71a",
+      "selected_metadata": {
+        "children": [],
+        "pagination": {
+          "first": null,
+          "last": null,
+          "prev": null,
+          "next": null,
+          "meta": {
+            "total": 0,
+            "per_page": 10
+          }
+        }
+      }
+    }
+  }
+}

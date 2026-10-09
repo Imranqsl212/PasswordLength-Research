@@ -1,0 +1,23 @@
+{
+  "retrieved_at_utc": "2026-10-05T09:54:26.316718+00:00",
+  "files": [
+    {
+      "filename": "linkedin.zip",
+      "url": "https://ndownloader.figshare.com/files/14027465",
+      "sha256": "fc831d2e524913d4692c297a356018f15a75d2a56520fc66576ddff0004faba7",
+      "bytes": 49375
+    },
+    {
+      "filename": "yahoo.tar.gz",
+      "url": "https://ndownloader.figshare.com/files/3636168",
+      "sha256": "061137ea3cc129c7d9f501295cb194e0c6fa158acac702f893cba3cfd5f44efe",
+      "bytes": 133771
+    },
+    {
+      "filename": "eff_large_wordlist.txt",
+      "url": "https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt",
+      "sha256": "addd35536511597a02fa0a9ff1e5284677b8883b83e986e43f15a3db996b903e",
+      "bytes": 108800
+    }
+  ]
+}

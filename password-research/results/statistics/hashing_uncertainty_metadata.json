@@ -1,0 +1,43 @@
+{
+  "status": "COMPLETED",
+  "result_type": "Derived descriptive statistics from frozen empirical timings",
+  "generated_at_utc": "2026-10-06T15:32:07.795424+00:00",
+  "original_run_started_at_utc": "2026-10-05T09:46:02.971347+00:00",
+  "input_sha256": {
+    "results/tables/hashing_cost.csv": "1cfc3dc5bf08e881c555c1652cba6293e1c4729e183a7dc330b7f5dfcdb47ffa",
+    "results/statistics/hashing_metadata.json": "577f22986fd1812a7c12f3d022b2c26be6bec3fcb21eca6859decdf0b746b4a3",
+    "results/statistics/hashing_host_observation.json": "15c5b2dbe632ff52507b248e70aa3706e9106138922579dc20eea3e471ad12ac"
+  },
+  "original_benchmark_source_sha256": "9bb8f4783db3f4979b67bbc2c62703c10ab73d59ab17615e80198c4daa9f567d",
+  "original_configuration_sha256": "46024f1b3542a12c4de3462251a18693ef62662ac0f412b43fda5e5b0163e6a4",
+  "derivation_source_relative_path": "experiments/hashing/derive_uncertainty.py",
+  "derivation_source_sha256": "3e1317267a5f40a73ff634f8640966ca3dc9c168311d5c9279ebb36b624cadc4",
+  "method": {
+    "required_repetitions": 5,
+    "original_quantile_position": "(n-1)*q; q=0,.25,.5,.75,1",
+    "sorted_observation_reconstruction": "min,q25,median,q75,max",
+    "variance": "sum((x-mean(x))**2)/(n-1); ddof=1; units ms^2",
+    "standard_deviation": "sqrt(sample_variance_ms2); units ms",
+    "coefficient_of_variation": "sample_sd_ms/mean_ms; unitless",
+    "iqr": "q75_ms-q25_ms; descriptive, not a confidence interval",
+    "interpretation": "Within-cell observed variability; no population inference",
+    "excluded_operations": "Original warmups and untimed incorrect-input checks"
+  },
+  "method_sha256": "f66198101faba8c27473b8cd4597f847d7f2bce05fb542c82a9225542927a74d",
+  "output_relative_path": "results/tables/hashing_uncertainty.csv",
+  "output_sha256": "e33f7e2184a32984f9bde8c7615a46417a6a34e57ea2ed344cadd8db9d45867c",
+  "rows": 72,
+  "cells": 36,
+  "new_timed_operations": 0,
+  "lossless_for": "Sorted five-value multisets at saved IEEE754 float precision",
+  "unavailable": [
+    "Timing observation order within each cell",
+    "Hash/verification pairing, covariance, temporal drift and autocorrelation",
+    "Untimed negative-input verification latency",
+    "Historical exact CPU model, RAM/core counts, power/thermal/background state",
+    "Population timing variance or validated confidence intervals",
+    "Measured sustained throughput, concurrent or GPU/ASIC results"
+  ],
+  "hardware_provenance": "Optional host observation is later context; it does not retroactively fill historical run metadata",
+  "original_outputs": "Preserved byte-for-byte; no new secrets, salts or verifier records generated"
+}

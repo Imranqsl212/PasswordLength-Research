@@ -1,0 +1,48 @@
+{
+  "status": "LATER HOST OBSERVATION; NOT HISTORICAL RUN METADATA",
+  "recorded_at_utc": "2026-10-06T14:35:40.708102+00:00",
+  "original_run_started_at_utc": "2026-10-05T09:46:02.971347+00:00",
+  "hardware": {
+    "chip": "Apple M1",
+    "model_identifier": "MacBookAir10,1",
+    "physical_memory_bytes": 8589934592,
+    "physical_memory_gib": 8,
+    "physical_cores": 8,
+    "logical_cores": 8
+  },
+  "operating_system": {
+    "product_name": "macOS",
+    "product_version": "15.1.1",
+    "build_version": "24B91",
+    "kernel_release": "24.1.0",
+    "architecture": "arm64"
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "openssl": "OpenSSL 3.5.8 25 Aug 2026",
+    "packages": {
+      "argon2-cffi": "25.1.0",
+      "argon2-cffi-bindings": "26.1.0",
+      "bcrypt": "5.0.0",
+      "cffi": "2.1.1"
+    }
+  },
+  "provenance": {
+    "hardware_commands": [
+      "sysctl -n machdep.cpu.brand_string hw.model hw.memsize hw.physicalcpu hw.logicalcpu",
+      "system_profiler SPHardwareDataType -json (only chip_type,physical_memory,total_number_cores,machine_model emitted)"
+    ],
+    "os_command": "sw_vers",
+    "system_profiler_confirmation": {
+      "chip_type": "Apple M1",
+      "physical_memory": "8 GB",
+      "machine_model": "MacBookAir10,1",
+      "total_number_cores": "NOT AVAILABLE; sysctl supplies 8 physical and 8 logical"
+    }
+  },
+  "limitations": [
+    "Observed after the benchmark; machine continuity is not independently established by the frozen run files",
+    "Does not recover historical power, thermal, background load, process affinity, available RAM, clock frequency or compiled-library backend identity",
+    "No serial number, hardware UUID, host/user name or network identity printed or retained in this observation; system_profiler output was filtered locally before export"
+  ]
+}

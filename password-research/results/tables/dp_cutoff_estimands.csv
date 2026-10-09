@@ -1,0 +1,4 @@
+condition,retained_bins,removed_bin_fraction,retained_account_mass,removed_account_mass_fraction,rho_length_frequency_distinct,rho_length_frequency_account,status
+all,57238505.0,0.0,173904254.0,0.0,0.0405479760204283,-0.3346158883555286,changes estimand; not estimated additive noise or causal DP effect
+frequency_at_least_2,35854322.0,0.37359786039135723,152520071.0,0.12296526685310416,-0.170885514763364,-0.3841257675677118,changes estimand; not estimated additive noise or causal DP effect
+frequency_at_least_5,3099086.0,0.9458566222161113,79664656.0,0.5419050761115942,-0.1336148555747053,-0.1495704020752015,changes estimand; not estimated additive noise or causal DP effect

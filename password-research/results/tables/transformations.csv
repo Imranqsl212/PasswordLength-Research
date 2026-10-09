@@ -1,0 +1,9 @@
+example,length,corpus_occurrences,count_ratio_to_base,evidence_type,global_rank
+password,8,52372427,1.0,empirical corpus count; selected public panel,UNAVAILABLE
+Password,8,15358389,0.2932533372952145,empirical corpus count; selected public panel,UNAVAILABLE
+password1,9,9643893,0.18414065477622413,empirical corpus count; selected public panel,UNAVAILABLE
+Password1,9,3461492,0.06609378633531725,empirical corpus count; selected public panel,UNAVAILABLE
+password!,9,296199,0.00565562867651713,empirical corpus count; selected public panel,UNAVAILABLE
+Password!,9,147314,0.0028128159880770848,empirical corpus count; selected public panel,UNAVAILABLE
+Password1!,10,584516,0.011160758312766372,empirical corpus count; selected public panel,UNAVAILABLE
+P@ssword1!,10,17329,0.0003308802167980491,empirical corpus count; selected public panel,UNAVAILABLE

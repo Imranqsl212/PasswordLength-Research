@@ -1,0 +1,7 @@
+model,configuration,rate_per_second,checks_per_hour,checks_per_day,seconds_for_10000,limitations
+online hypothetical,1/second,1.0,3600.0,86400.0,10000.0,"continuous attempts; real throttling, lockout, MFA, latency and detection alter budget"
+online hypothetical,10/second,10.0,36000.0,864000.0,1000.0,"continuous attempts; real throttling, lockout, MFA, latency and detection alter budget"
+online hypothetical,100/second,100.0,360000.0,8640000.0,100.0,"continuous attempts; real throttling, lockout, MFA, latency and detection alter budget"
+local serial verification illustration,argon2id level3,8.289412400443318,29841.884641595945,716205.2313983027,1206.3581249094568,"reciprocal measured median; no accelerators, parallelism, batch optimization or real attack"
+local serial verification illustration,bcrypt level3,4.270846027960995,15375.045700659583,369001.09681583,2341.4564548875205,"reciprocal measured median; no accelerators, parallelism, batch optimization or real attack"
+local serial verification illustration,pbkdf2_sha256 level3,16.0071658309916,57625.79699156976,1383019.1277976742,624.7202100348659,"reciprocal measured median; no accelerators, parallelism, batch optimization or real attack"

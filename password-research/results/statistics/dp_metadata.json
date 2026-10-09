@@ -1,0 +1,77 @@
+{
+  "completed_at_utc": "2026-10-06T15:32:02.072286+00:00",
+  "status": "COMPLETED_AGGREGATE_DIAGNOSTICS_AND_ILLUSTRATIVE_RADIUS_ANALYSIS",
+  "configuration": {
+    "epsilon_per_list": 0.25,
+    "reported_privacy_delta_upper": 7.888609052210118e-31,
+    "utility_tail_probability_beta": 0.05,
+    "assumed_true_mass_multipliers": [
+      1,
+      2
+    ],
+    "fixed_l1_radii": [
+      1000,
+      10000,
+      100000,
+      1000000
+    ],
+    "primary_lengths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "coverage_budget": 10000,
+    "mechanism_status": "published restricted partition exponential mechanism; not reproduced",
+    "radius_status": "conditional theoretical mass-proxy illustration; not actual noise or CI",
+    "restriction_status": "true input partition is retained; restricted normalizer is at least one; no eta estimate used"
+  },
+  "configuration_sha256": "8135cee9190285ac06780cb27be5788dcaa4b637f9dc6ae3a81de9666b8eeb7d",
+  "input_sha256": {
+    "data/raw/linkedin.zip": "fc831d2e524913d4692c297a356018f15a75d2a56520fc66576ddff0004faba7",
+    "data/raw/yahoo.tar.gz": "061137ea3cc129c7d9f501295cb194e0c6fa158acac702f893cba3cfd5f44efe",
+    "results/tables/robustness.csv": "b3565c6eaca29a001ae6fd884ffa4780c7fb85f2431af5fb1e8dae0b555036d6"
+  },
+  "source_sha256": {
+    "experiments/dp_sensitivity.py": "db87aee2ea5e3804d770717d7d1633e4aea536eff22c4111fb262b8982b75781",
+    "src/core.py": "77afea7e9d75a07444b3ffa4a9af4face18e522aa78c758bc952006c00d8a7fa",
+    "src/analysis.py": "e011203c08c60952438a87a3daca3ea1f38dd1f4dda895cb5c9fc9361f760ce3"
+  },
+  "output_sha256": {
+    "results/tables/dp_parity.csv": "89f81664eac1e14f8bc739aff31f1b6f9dd36fbf4cfcfe648aa3e525543d44c7",
+    "results/tables/dp_frequency_pairs.csv": "5a69f649c838bdfbd60cb27365ce40287827389fdb93bb93533a44650d199846",
+    "results/tables/dp_consistency.csv": "633174743d5e5f5efcc82c7a516e1f221096ecd0f76bd30745f76626e2b7ebff",
+    "results/tables/dp_radius_sensitivity.csv": "d4c3d2a91598035379b592d413c287c7a80d409ddea55067462a14ca073cdd7c",
+    "results/tables/dp_noise_lower_bounds.csv": "d1bd5b5074c8269934f39e11ce25ddbbee21802dcd8953c2ba00f9af2c1f6c10",
+    "results/tables/dp_cutoff_estimands.csv": "53278d1f8bb3b1c5f9ace34996c4050a76385f5d7f459639d3cf722c3b0de6d5"
+  },
+  "primary_sources": [
+    "https://eprint.iacr.org/2016/153.pdf",
+    "https://arxiv.org/pdf/2002.01513"
+  ],
+  "assumptions": [
+    "Integer sorted spectra with zero padding; distance is half L1.",
+    "Unknown true mass is illustrated at released mass and twice released mass.",
+    "No probability guarantee after plugging a data-dependent released mass into the bound.",
+    "Restricted normalizer is at least one because the true input f is retained; no removed-support probability eta is inferred from privacy delta.",
+    "Radius envelopes condition on chosen L1 budget; neither sharp intervals nor noise confidence intervals.",
+    "Utility beta=.05 is separate from privacy delta and is not a simultaneous per-length guarantee."
+  ],
+  "not_performed": [
+    "plaintext reconstruction",
+    "noise reconstruction",
+    "iid Laplace simulation",
+    "published mechanism reimplementation",
+    "actual-noise estimation",
+    "noise CI",
+    "causal attribution"
+  ],
+  "full_vs_pooled_l1": 30785
+}

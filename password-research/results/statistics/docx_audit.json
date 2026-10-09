@@ -1,0 +1,84 @@
+{
+  "docx": "paper/submission/Imran_Zakirov_Password_Length_Manuscript.docx",
+  "sha256": "49da4934e5fe2c00631e13025d8e5264f43b3d5a61012a50c504b5a1166e11b9",
+  "source_sha256": "5911dbc1c2b25b1f90ee6d7b86bed961ed7294f3965aab1a114cb47ab0700b0a",
+  "python_docx": "1.2.0",
+  "builder_sha256": "fc5e838f8dffc7e03727ef482c5af505f171af3b9d491801556bc6de75c5572f",
+  "figures_embedded": 12,
+  "tables": 15,
+  "references": 34,
+  "editable_equation_paragraphs": 4,
+  "figures": [
+    {
+      "file": "paper/../results/journal_figures/jfig01_uniform.png",
+      "sha256": "fce1a532b033c8077ca1f05adebef9f4ad60364e61da57d352ae3ee609209dc3",
+      "alt": "Figure 1: jfig01_uniform"
+    },
+    {
+      "file": "paper/../results/journal_figures/jfig02_frequency.png",
+      "sha256": "f95923fe43152e28f323f50ca4bf46e3ab9f098530e2a371fb3a133fe40e9c20",
+      "alt": "Figure 2: jfig02_frequency"
+    },
+    {
+      "file": "paper/../results/journal_figures/jfig03_conditional.png",
+      "sha256": "c47a401fcf5e062dd29d380810453d929cbf2a8863f967e792465a7baa316ae7",
+      "alt": "Figure 3: jfig03_conditional"
+    },
+    {
+      "file": "paper/../results/journal_figures/jfig04_matched.png",
+      "sha256": "7605b86da6c4062b395097b9675fb2254d3e0c4f91517a9409cc2827f062cadf",
+      "alt": "Figure 4: jfig04_matched"
+    },
+    {
+      "file": "paper/../results/journal_figures/jfig05_train_threshold.png",
+      "sha256": "f5ff95dded9fdb8d6133fd1c675aa7d39b90585f58b0fd38bb0a0531bda656cb",
+      "alt": "Figure 5: jfig05_train_threshold"
+    },
+    {
+      "file": "paper/../results/journal_figures/jfig06_long_thresholds.png",
+      "sha256": "d2500d9b2df5efd3117b0ca29b54e1e7417473037998df541cf0887d3c2b33b5",
+      "alt": "Figure 6: jfig06_long_thresholds"
+    },
+    {
+      "file": "paper/../results/journal_figures/jfig07_words.png",
+      "sha256": "52512b7c4c5536f6bb23eae2a8490b111058d34aadc9404a2b443591c808344e",
+      "alt": "Figure 7: jfig07_words"
+    },
+    {
+      "file": "paper/../results/journal_figures/jfig08_hashing.png",
+      "sha256": "28d85fae4900fe19c45c0e4e7861e6e4d04c396a0f3bea1ccfda0b0ad0c30a40",
+      "alt": "Figure 8: jfig08_hashing"
+    },
+    {
+      "file": "paper/../results/journal_figures/jfig09_cross_source.png",
+      "sha256": "61d64f58a56b45a58c1137424c14135182418f75928e2a0834821b3b5ebd604b",
+      "alt": "Figure 9: jfig09_cross_source"
+    },
+    {
+      "file": "paper/../results/journal_figures/jfigS1_transformations.png",
+      "sha256": "f879637b627c137f2f624dc7a319c5dd026eb5101ed9cb3089ea894452744d02",
+      "alt": "Figure S1: jfigS1_transformations"
+    },
+    {
+      "file": "paper/../results/journal_figures/jfigS2_original_models.png",
+      "sha256": "bd4ee127d989db31edb3581db4a6f24e954b655e5a568f20467bd472b8cfbfa8",
+      "alt": "Figure S2: jfigS2_original_models"
+    },
+    {
+      "file": "paper/../results/journal_figures/jfigS3_budget.png",
+      "sha256": "e797728486daf47e69197b117bf1187388c56ed59fe16b9e1863ffbd0ce320b2",
+      "alt": "Figure S3: jfigS3_budget"
+    }
+  ],
+  "local_external_relationships": 0,
+  "layout_render": "QuickLook continuous content and initial thumbnail inspected; actual Word/Pages pagination UNVERIFIED",
+  "continuous_preview": {
+    "type": "macOS QuickLook continuous HTML; NOT paginated Word rendering",
+    "html_sha256": "8097f033fc140487819daa7ea62b14988823b69f6bf2a4ae26a1a33c68c21ca4",
+    "images": 12,
+    "tables": 15,
+    "equations_visible": 4,
+    "bibliography_end_present": true,
+    "native_pagination_verified": false
+  }
+}

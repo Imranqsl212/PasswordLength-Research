@@ -1,0 +1,11 @@
+from_length,to_length,conditional_g50_ratio,conditional_top10000_change_pp,from_mass,to_mass,uniform_lowercase_search_space_ratio,causality
+6,7,4.06226079456633,-6.5538092235937375,33172884,23626429,26,"different observed source groups, not an intervention"
+7,8,4.7962021789036475,-11.623034576225667,23626429,45655199,26,"different observed source groups, not an intervention"
+8,9,1.1632096326607404,-1.382592611498565,45655199,22664131,26,"different observed source groups, not an intervention"
+9,10,1.402763539607748,-3.8229960575644553,22664131,16761091,26,"different observed source groups, not an intervention"
+10,11,0.6019265474806405,-1.5199085737118283,16761091,7838163,26,"different observed source groups, not an intervention"
+11,12,0.683294271420201,-0.46370213153259926,7838163,4711604,26,"different observed source groups, not an intervention"
+12,13,0.5643527756248523,-0.8993591266214616,4711604,2311635,26,"different observed source groups, not an intervention"
+13,14,0.6110281853046813,0.6641257061192424,2311635,1339616,26,"different observed source groups, not an intervention"
+14,15,6.496648521125077,5.205226466205683,1339616,15212723,26,"different observed source groups, not an intervention"
+15,16,0.04069180422394386,15.835413174908265,15212723,610779,26,"different observed source groups, not an intervention"

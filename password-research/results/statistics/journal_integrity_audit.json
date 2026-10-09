@@ -1,0 +1,98 @@
+{
+  "status": "PASSED",
+  "completed_at_utc": "2026-10-06T15:52:49.496474+00:00",
+  "source_sha256": "5911dbc1c2b25b1f90ee6d7b86bed961ed7294f3965aab1a114cb47ab0700b0a",
+  "docx_sha256": "49da4934e5fe2c00631e13025d8e5264f43b3d5a61012a50c504b5a1166e11b9",
+  "audit_source_sha256": "b8998106556d926803b0efaefd7a95ec7efbeced429b4c2ca45f01682a147f34",
+  "references": 34,
+  "citation_occurrences": 52,
+  "numbered_figures": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "numbered_tables": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8"
+  ],
+  "embedded_figures": 12,
+  "editable_equations": 4,
+  "external_local_relationships": 0,
+  "tests_passed": 54,
+  "csv_tables_reproduced": 34,
+  "preview": {
+    "type": "macOS QuickLook continuous HTML; NOT paginated Word rendering",
+    "html_sha256": "8097f033fc140487819daa7ea62b14988823b69f6bf2a4ae26a1a33c68c21ca4",
+    "images": 12,
+    "tables": 15,
+    "equations_visible": 4,
+    "bibliography_end_present": true,
+    "native_pagination_verified": false
+  },
+  "overclaim_context_scan": {
+    "prove": {
+      "occurrences_by_line": 5,
+      "interpretation": "Context reviewed in claim-evidence/reviewer reports; not an automated scientific verdict"
+    },
+    "causal": {
+      "occurrences_by_line": 9,
+      "interpretation": "Context reviewed in claim-evidence/reviewer reports; not an automated scientific verdict"
+    },
+    "dominates": {
+      "occurrences_by_line": 2,
+      "interpretation": "Context reviewed in claim-evidence/reviewer reports; not an automated scientific verdict"
+    },
+    "realistic attack": {
+      "occurrences_by_line": 1,
+      "interpretation": "Context reviewed in claim-evidence/reviewer reports; not an automated scientific verdict"
+    },
+    "first study": {
+      "occurrences_by_line": 1,
+      "interpretation": "Context reviewed in claim-evidence/reviewer reports; not an automated scientific verdict"
+    },
+    "independent": {
+      "occurrences_by_line": 33,
+      "interpretation": "Context reviewed in claim-evidence/reviewer reports; not an automated scientific verdict"
+    },
+    "entropy": {
+      "occurrences_by_line": 17,
+      "interpretation": "Context reviewed in claim-evidence/reviewer reports; not an automated scientific verdict"
+    },
+    "secure": {
+      "occurrences_by_line": 3,
+      "interpretation": "Context reviewed in claim-evidence/reviewer reports; not an automated scientific verdict"
+    },
+    "predictability": {
+      "occurrences_by_line": 4,
+      "interpretation": "Context reviewed in claim-evidence/reviewer reports; not an automated scientific verdict"
+    }
+  },
+  "limits": [
+    "Not external peer review or human authorship verification",
+    "Actual Word/Pages pagination remains unverified",
+    "Venue eligibility and final author approval remain unestablished",
+    "Human structural data unavailable; operational/GPU comparisons not run"
+  ]
+}

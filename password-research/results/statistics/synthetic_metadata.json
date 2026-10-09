@@ -1,0 +1,67 @@
+{
+  "generated_at_utc": "2026-10-05T09:59:13.177565+00:00",
+  "generator": "secrets.choice; independent OS randomness, intentionally not seedable",
+  "analysis_seed": 20261005,
+  "secure_generator_seed": "not applicable",
+  "temporary_string_bundle_sha256": "aac13c0727daf59e9caef5767cb9fa30a32f2ecb3cb51d25df04a407a15a26a3",
+  "features_sha256": "b39d395609a2105f3ccac0c12ae893dc63d4e79e03ffe74e088633e4914e72d4",
+  "n": 26700,
+  "config": {
+    "primary_lengths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "random_lengths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      24,
+      32
+    ],
+    "coverage_budgets": [
+      10,
+      100,
+      1000,
+      10000,
+      100000,
+      1000000
+    ],
+    "primary_budget": 10000,
+    "synthetic_samples_per_cell": 100,
+    "synthetic_replicates": 3,
+    "passphrase_word_counts": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "analysis_seed": 20261005,
+    "length_semantics": "source-defined for LinkedIn; Unicode code points for local synthetic inputs",
+    "ties": "average ranks and fractional top-K coverage; sharp within-tie bounds for length comparisons",
+    "inference": "descriptive only; no population p-values or confidence intervals on DP release",
+    "study_date": "2026-10-05"
+  },
+  "wordlist_sha256": "addd35536511597a02fa0a9ff1e5284677b8883b83e986e43f15a3db996b903e",
+  "source_sha256": "4cb11a2d5f80b28941acfe21d5a1d09cad3e73c1855e7136d2c8e8862844f432",
+  "interpretation": "synthetic controls are not human observations; frozen features are inputs to reproducible analysis; text not retained",
+  "generation_source_snapshot": "experiments/provenance/synthetic_generation_20261005.py.txt"
+}

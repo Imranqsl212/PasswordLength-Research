@@ -1,0 +1,10 @@
+analysis,status,scope
+A exhaustive search,RUN_THEORETICAL,"N^L, expected guesses and uniform coverage, no actual enumeration"
+D frequency informed,RUN_AGGREGATE,anonymous conditional/pooled frequency oracle; no candidate strings
+B dictionary order,NOT RUN,strings and independently validated training/test corpus unavailable
+C transformation order,NOT RUN,no candidate generator; HIBP panel measures occurrence counts only
+E statistical guessing,NOT RUN,no appropriate plaintext training/test corpus; literature only
+Length-only descriptive model,RUN_EMPIRICAL_AGGREGATE,distinct-bin top10k membership; leave-length-out calibration
+Length+structure human model,DATA UNAVAILABLE,anonymous histograms have no structural covariates
+Synthetic characters/passphrases,RUN_CONTROLLED,"CSPRNG generation and feature validation, theoretical entropy"
+Local password hashing,RUN_EMPIRICAL,36 cells;5 reps;3 algorithms;no credential cracking

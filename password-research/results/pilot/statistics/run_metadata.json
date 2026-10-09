@@ -1,0 +1,76 @@
+{
+  "timestamp_utc": "2026-10-05T09:57:22.089009+00:00",
+  "pilot": true,
+  "config": {
+    "primary_lengths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "random_lengths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      24,
+      32
+    ],
+    "coverage_budgets": [
+      10,
+      100,
+      1000,
+      10000,
+      100000,
+      1000000
+    ],
+    "primary_budget": 10000,
+    "synthetic_samples_per_cell": 100,
+    "synthetic_replicates": 3,
+    "passphrase_word_counts": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "analysis_seed": 20261005,
+    "length_semantics": "source-defined for LinkedIn; Unicode code points for local synthetic inputs",
+    "ties": "average ranks and fractional top-K coverage; sharp within-tie bounds for length comparisons",
+    "inference": "descriptive only; no population p-values or confidence intervals on DP release",
+    "study_date": "2026-10-05"
+  },
+  "input_sha256": {
+    "linkedin_metadata.json": "7e8587861b25943ef8a26e22acbae002b3e4e2fde1fb3856275e5682379786c6",
+    "hibp_public_panel.json": "222716028e0f1459d94c4dc51eea865c079125a28bfe8733c646c7b8055b9f02",
+    "yahoo_metadata.json": "2606a7682c772854f2aac0b05f261f3b98d941431299744f5044c2fc1515c082",
+    "source_manifest.json": "b6ef630815de34acca8e0e108f1893d31301d0d2d927e1225a296473ed6d51a0",
+    "linkedin.zip": "fc831d2e524913d4692c297a356018f15a75d2a56520fc66576ddff0004faba7",
+    "eff_large_wordlist.txt": "addd35536511597a02fa0a9ff1e5284677b8883b83e986e43f15a3db996b903e",
+    "yahoo.tar.gz": "061137ea3cc129c7d9f501295cb194e0c6fa158acac702f893cba3cfd5f44efe"
+  },
+  "source_sha256": {
+    "src/analysis.py": "9f264abb39e86d3ca3c5894bc7ffd1c903a3b809125f868f18b571d2aa0c9621",
+    "src/core.py": "25e6b046a709e33a4c6f152c12976f81895e2669d054e7585b8a7f1673bf876f"
+  },
+  "config_sha256": "8e909fe04f4e296718c9fa0aeae8bc6e64a45d115def4537d8d6a050d6ec6162",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "notes": "released mass, not exact distinct people; anonymous frequency oracles, not operational attacks"
+}

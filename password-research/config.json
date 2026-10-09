@@ -1,0 +1,14 @@
+{
+  "primary_lengths": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+  "random_lengths": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 20, 24, 32],
+  "coverage_budgets": [10, 100, 1000, 10000, 100000, 1000000],
+  "primary_budget": 10000,
+  "synthetic_samples_per_cell": 100,
+  "synthetic_replicates": 3,
+  "passphrase_word_counts": [2, 3, 4, 5, 6],
+  "analysis_seed": 20261005,
+  "length_semantics": "source-defined for LinkedIn; Unicode code points for local synthetic inputs",
+  "ties": "average ranks and fractional top-K coverage; sharp within-tie bounds for length comparisons",
+  "inference": "descriptive only; no population p-values or confidence intervals on DP release",
+  "study_date": "2026-10-05"
+}

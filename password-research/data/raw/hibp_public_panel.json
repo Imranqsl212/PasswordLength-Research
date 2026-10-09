@@ -1,0 +1,48 @@
+{
+  "queried_at_utc": "2026-10-05T09:54:26.317055+00:00",
+  "method": "SHA1 first five hex characters over HTTPS; Add-Padding:true; local suffix matching",
+  "scope": "eight public illustrative examples from request; no active credentials",
+  "prefix_requests": 8,
+  "rows": [
+    {
+      "example": "password",
+      "length": 8,
+      "corpus_occurrences": 52372427
+    },
+    {
+      "example": "Password",
+      "length": 8,
+      "corpus_occurrences": 15358389
+    },
+    {
+      "example": "password1",
+      "length": 9,
+      "corpus_occurrences": 9643893
+    },
+    {
+      "example": "Password1",
+      "length": 9,
+      "corpus_occurrences": 3461492
+    },
+    {
+      "example": "password!",
+      "length": 9,
+      "corpus_occurrences": 296199
+    },
+    {
+      "example": "Password!",
+      "length": 9,
+      "corpus_occurrences": 147314
+    },
+    {
+      "example": "Password1!",
+      "length": 10,
+      "corpus_occurrences": 584516
+    },
+    {
+      "example": "P@ssword1!",
+      "length": 10,
+      "corpus_occurrences": 17329
+    }
+  ]
+}

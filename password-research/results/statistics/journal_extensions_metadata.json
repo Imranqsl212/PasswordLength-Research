@@ -1,0 +1,138 @@
+{
+  "completed_at_utc": "2026-10-06T15:32:07.630817+00:00",
+  "status": "COMPLETED_EXPLORATORY_ANONYMOUS_AGGREGATE_EXTENSIONS",
+  "plan": {
+    "plan_date": "2026-10-06",
+    "status": "fixed exploratory journal-upgrade plan before execution of these new analyses",
+    "prior_results_known": true,
+    "preregistration": false,
+    "primary_lengths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "long_minima": [
+      12,
+      14,
+      15,
+      16,
+      20,
+      24,
+      32
+    ],
+    "coverage_budgets": [
+      10,
+      100,
+      1000,
+      10000,
+      100000,
+      1000000
+    ],
+    "original_long_threshold": {
+      "minimum_length": 16,
+      "budget": 10000
+    },
+    "training_threshold_budget": 10000,
+    "training_threshold_scope": "other ten primary length groups only; held group excluded before threshold and boundary tie fraction are computed",
+    "training_threshold_rule": "q(f)=1 above training cutoff, training boundary fraction at the cutoff, zero below; apply frozen rule to both training and held histograms",
+    "models": [
+      "intercept_only",
+      "linear_logistic",
+      "quadratic_logistic",
+      "cubic_logistic",
+      "bspline_cubic_4knots",
+      "bspline_cubic_5knots"
+    ],
+    "model_implementation": "reuse fixed definitions, training-only basis/scaling and optimization from experiments/nonlinear_models.py without altering that file",
+    "model_weighting": "distinct anonymous bins; fractional positive/negative binary mass",
+    "metrics": [
+      "log_loss",
+      "binary_brier_loss",
+      "absolute_group_calibration_error",
+      "squared_group_calibration_error",
+      "observed_to_predicted_ratio",
+      "fold_constant_comparison",
+      "equal_group_log_loss"
+    ],
+    "omitted_metrics": "AUC and precision/recall are not pooled across changing fold targets; only one prediction score per held length group",
+    "long_metrics": "pooled identityless oracle account/bin membership with expected tie allocation and sharp within-tie bounds; all 42 threshold cells reported",
+    "cross_dataset_metrics": "six fixed-budget anonymous account coverage values separately for LinkedIn full and Yahoo all, with percentage-point differences; not length validation or temporal trend",
+    "inference": "descriptive exploratory aggregate diagnostics; no causal, person-level, prospective or independent-source prediction inference",
+    "human_structure": "DATA UNAVAILABLE pending verified ethically usable structural data",
+    "operational_guessers": "NOT RUN",
+    "preserve_original_outputs": true
+  },
+  "plan_sha256": "6c1720320bb9b306be5b6b0aefe62f692bf859ecbf3365792ffd2ebf3d1eef04",
+  "source_sha256": {
+    "experiments/journal_extensions.py": "e5cc8306ca54f1077d100ffc1724b93ed08c04d8e17a40c387b9b62b6838bc21",
+    "src/analysis.py": "e011203c08c60952438a87a3daca3ea1f38dd1f4dda895cb5c9fc9361f760ce3",
+    "src/core.py": "77afea7e9d75a07444b3ffa4a9af4face18e522aa78c758bc952006c00d8a7fa",
+    "experiments/nonlinear_models.py": "f7e2247a18f711ace38fce22196680025ba2679370a28618eb12e4eb352dd5f0"
+  },
+  "input_sha256": {
+    "data/raw/linkedin.zip": "fc831d2e524913d4692c297a356018f15a75d2a56520fc66576ddff0004faba7",
+    "data/raw/yahoo.tar.gz": "061137ea3cc129c7d9f501295cb194e0c6fa158acac702f893cba3cfd5f44efe",
+    "config.json": "8e909fe04f4e296718c9fa0aeae8bc6e64a45d115def4537d8d6a050d6ec6162"
+  },
+  "output_sha256": {
+    "results/tables/journal_train_threshold_results.csv": "61d458a992aa36bb5918c1ccfdeea9503374bef479aad88716b1fa2c1422eb6f",
+    "results/tables/journal_train_threshold_validation.csv": "edab476c3aaaf49977916f5f31b4de2f248759c7b53a145a00961ca7cbf69176",
+    "results/tables/journal_train_threshold_targets.csv": "31651bcba9ef3d009e754a26f9f6a9e9fd673a9a506f7272755550b0ddd88f86",
+    "results/tables/journal_long_early.csv": "56069e1c0e6a85671a14ee95de6f5f6931f6ee8158c92c60f2ada849d00ccb3b",
+    "results/tables/journal_cross_dataset.csv": "0d403adf53868e67532ed0462364540416680692673e323d18067fa29b4f2507"
+  },
+  "original_table_sha256": {
+    "results/tables/synthetic_summary.csv": "53ce86ef5dfda1e201f18d460f1bd047a36a6c304fe473de7dacb179f11f9cea",
+    "results/tables/transformations.csv": "d7d7f6dede0fcd7108cd3ef5f4212e3535265d7cae40eb82fe39cbc24b2bcd34",
+    "results/tables/alternate_length_bins.csv": "6775407466a647eb976a210548d36824cc4b05cdafd3c0dab993960decf3b9c5",
+    "results/tables/marginal_length.csv": "c78cd0bfd0d8d8d0b1a6191c95bd775e8d9011d6f88cfd99fba705fe9ee3ed86",
+    "results/tables/dp_noise_lower_bounds.csv": "d1bd5b5074c8269934f39e11ce25ddbbee21802dcd8953c2ba00f9af2c1f6c10",
+    "results/tables/length_bins.csv": "59c4ee641592f16193ddecbaca83efde3f8ebfaaa97570140ed465ed26ab1f18",
+    "results/tables/tail_diagnostics.csv": "5dc1750b7bc4525d83a23e31f1e9e6ddabb71f07ff444fcb153562028cab2c03",
+    "results/tables/length_distribution.csv": "7e163226f6aac0fd0dc5f74ba1f87800a13ecc4695041d5bc0403b453465661a",
+    "results/tables/model_results.csv": "9567096a5257de68e57861d0160c4f66551ac0d048005e7bbe0fd352a29af225",
+    "results/tables/dp_cutoff_estimands.csv": "53278d1f8bb3b1c5f9ace34996c4050a76385f5d7f459639d3cf722c3b0de6d5",
+    "results/tables/robustness.csv": "b3565c6eaca29a001ae6fd884ffa4780c7fb85f2431af5fb1e8dae0b555036d6",
+    "results/tables/dp_radius_sensitivity.csv": "d4c3d2a91598035379b592d413c287c7a80d409ddea55067462a14ca073cdd7c",
+    "results/tables/experiment_status.csv": "0913b39820d2ebddcaefb14530dbd004af43378a5b174a85cbb22ba541f7de77",
+    "results/tables/passphrase_conditional.csv": "08d5a44fa7f67da4c0219a6cb06b14a621ffebd36edce11f1c9d15c0017b3319",
+    "results/tables/hashing_cost.csv": "1cfc3dc5bf08e881c555c1652cba6293e1c4729e183a7dc330b7f5dfcdb47ffa",
+    "results/tables/theoretical_baseline.csv": "d0bd0cd499fa1bb2044e98250d12e5a4bfd8b468b1c9eaf00e398f9e348d07a5",
+    "results/tables/model_validation.csv": "cbf748d301ba8860305f6a932f1f571d9d67faa3b0fdd2a1ca9fa27175d56180",
+    "results/tables/random_vs_human.csv": "ac4754eec4c78b22c473e50d5a5fe9248355bacc1e657e529e3c746344734a07",
+    "results/tables/dp_consistency.csv": "633174743d5e5f5efcc82c7a516e1f221096ecd0f76bd30745f76626e2b7ebff",
+    "results/tables/dp_frequency_pairs.csv": "5a69f649c838bdfbd60cb27365ce40287827389fdb93bb93533a44650d199846",
+    "results/tables/long_early_membership.csv": "fc70a35edc06d2d1054fe20ba03c40e9d0265fda3470779f64a032d5cd5febfe",
+    "results/tables/hashing_uncertainty.csv": "e33f7e2184a32984f9bde8c7615a46417a6a34e57ea2ed344cadd8db9d45867c",
+    "results/tables/dp_parity.csv": "89f81664eac1e14f8bc739aff31f1b6f9dd36fbf4cfcfe648aa3e525543d44c7",
+    "results/tables/nonlinear_model_results.csv": "037f271713e5db2b4629c1ac606ccd716ca36e8342c05d30d01b60f4b61fab71",
+    "results/tables/coverage_curves.csv": "e36c749eded5e13660e6b04af618edca306edab942fb841e77cfafd0403d8026",
+    "results/tables/passphrase_summary.csv": "6e8987247a195b8ef528207350abadeebbde1004e1c14f94e5b65739422d7683",
+    "results/tables/nonlinear_model_validation.csv": "9e4d78737951d9ca2761d544f99903674cff2b636388d3c91996875f3e7c178a",
+    "results/tables/dataset_characteristics.csv": "19c3e486157471be194e050266c8d97b908cae3bbfde35866c4d0017711ab177",
+    "results/tables/threat_models.csv": "6cd0322917cfc463d6628d2f5a5f87e2d24a1c6a41a4fb56794d7b62063fb5ad"
+  },
+  "original_tables_unchanged": true,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1"
+  },
+  "fits": 66,
+  "models": 6,
+  "threshold_folds": 11,
+  "long_threshold_cells": 42,
+  "cross_dataset_budgets": 6,
+  "metrics_omitted": "AUC and precision/recall are not pooled across changing fold targets; only one prediction score per held length group",
+  "scope": "Target construction excludes held histograms; each fold target differs. No identified candidates, independent users, prospective data, human structure, population CI, or causal inference."
+}

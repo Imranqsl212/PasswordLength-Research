@@ -1,0 +1,160 @@
+{
+  "status": "COMPLETED",
+  "result_type": "Empirical local benchmark",
+  "started_at_utc": "2026-10-05T09:46:02.971347+00:00",
+  "completed_at_utc": "2026-10-05T09:46:34.540772+00:00",
+  "elapsed_seconds": 31.576256791013293,
+  "configuration": {
+    "lengths_bytes": [
+      8,
+      16,
+      32,
+      64
+    ],
+    "alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+    "input_generation": "secrets.choice; fresh synthetic printable ASCII",
+    "repetitions": 5,
+    "warmups_per_cell": 1,
+    "order_seed": 20261005,
+    "max_seconds": 180,
+    "algorithms": [
+      {
+        "algorithm": "pbkdf2_sha256",
+        "cost_level": 1,
+        "parameters": {
+          "iterations": 100000,
+          "salt_bytes": 16,
+          "derived_key_bytes": 32
+        },
+        "library_version": "3.12.14"
+      },
+      {
+        "algorithm": "pbkdf2_sha256",
+        "cost_level": 2,
+        "parameters": {
+          "iterations": 300000,
+          "salt_bytes": 16,
+          "derived_key_bytes": 32
+        },
+        "library_version": "3.12.14"
+      },
+      {
+        "algorithm": "pbkdf2_sha256",
+        "cost_level": 3,
+        "parameters": {
+          "iterations": 600000,
+          "salt_bytes": 16,
+          "derived_key_bytes": 32
+        },
+        "library_version": "3.12.14"
+      },
+      {
+        "algorithm": "argon2id",
+        "cost_level": 1,
+        "parameters": {
+          "memory_kib": 19456,
+          "time_cost": 2,
+          "parallelism": 1,
+          "salt_bytes": 16,
+          "derived_key_bytes": 32,
+          "version": 19
+        },
+        "library_version": "25.1.0"
+      },
+      {
+        "algorithm": "argon2id",
+        "cost_level": 2,
+        "parameters": {
+          "memory_kib": 32768,
+          "time_cost": 2,
+          "parallelism": 1,
+          "salt_bytes": 16,
+          "derived_key_bytes": 32,
+          "version": 19
+        },
+        "library_version": "25.1.0"
+      },
+      {
+        "algorithm": "argon2id",
+        "cost_level": 3,
+        "parameters": {
+          "memory_kib": 65536,
+          "time_cost": 3,
+          "parallelism": 1,
+          "salt_bytes": 16,
+          "derived_key_bytes": 32,
+          "version": 19
+        },
+        "library_version": "25.1.0"
+      },
+      {
+        "algorithm": "bcrypt",
+        "cost_level": 1,
+        "parameters": {
+          "log2_rounds": 8,
+          "maximum_input_bytes": 72,
+          "salt_bytes": 16,
+          "prefix": "2b"
+        },
+        "library_version": "5.0.0"
+      },
+      {
+        "algorithm": "bcrypt",
+        "cost_level": 2,
+        "parameters": {
+          "log2_rounds": 10,
+          "maximum_input_bytes": 72,
+          "salt_bytes": 16,
+          "prefix": "2b"
+        },
+        "library_version": "5.0.0"
+      },
+      {
+        "algorithm": "bcrypt",
+        "cost_level": 3,
+        "parameters": {
+          "log2_rounds": 12,
+          "maximum_input_bytes": 72,
+          "salt_bytes": 16,
+          "prefix": "2b"
+        },
+        "library_version": "5.0.0"
+      }
+    ]
+  },
+  "configuration_sha256": "46024f1b3542a12c4de3462251a18693ef62662ac0f412b43fda5e5b0163e6a4",
+  "synthetic_input_bundle_sha256": "cc4d3171fe55b003a6cc8d9c952ba831bf16cb227eecbc5547a24aaad25c5234",
+  "source_sha256": "9bb8f4783db3f4979b67bbc2c62703c10ab73d59ab17615e80198c4daa9f567d",
+  "source_relative_path": "experiments/hashing/benchmark.py",
+  "output_sha256": "1cfc3dc5bf08e881c555c1652cba6293e1c4729e183a7dc330b7f5dfcdb47ffa",
+  "host": {
+    "system": "Darwin",
+    "release": "24.1.0",
+    "machine": "arm64",
+    "processor": "arm",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "openssl": "OpenSSL 3.5.8 25 Aug 2026"
+  },
+  "clock": {
+    "name": "perf_counter",
+    "monotonic": true,
+    "resolution_seconds": 4.166666666666667e-08
+  },
+  "cells_completed": 36,
+  "not_run": [],
+  "hash_operations": 216,
+  "positive_verify_operations": 216,
+  "negative_verify_operations": 36,
+  "input_handling": "Secrets and verifier records remained in process memory; neither exported",
+  "timing_scope": "Hash includes salt generation; verify includes local checking; warmups and wrong-input checks excluded from summaries",
+  "quantiles": "Linear interpolation on the ordered five measurements; IQR is descriptive variation, not a confidence interval",
+  "limitations": [
+    "Single host and process; timing is not an attacker throughput estimate",
+    "Fresh secrets and salts prevent bitwise reproduction; configuration and method reproduce",
+    "ASCII length equals bytes; Unicode and lengths above 64 bytes were not benchmarked",
+    "No external login requests, real credentials, candidate enumeration, or offline cracking",
+    "Cost levels are experimental settings; low levels are not deployment recommendations",
+    "All Argon2id levels use parallelism=1; 64 MiB/t=3 differs from RFC 9106 parallelism=4",
+    "bcrypt inputs above 72 bytes are explicitly rejected and not measured"
+  ]
+}

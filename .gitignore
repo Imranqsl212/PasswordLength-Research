@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+data/raw/*.zip
+data/raw/*.tar.gz
+*.zip
+*.sha256
+*.pages
+# по желанию, раскомментируйте, если не хотите публиковать AI-симуляции рецензий:
+ docs/journal-reviewer-*.md
+ docs/journal-editor-simulation.md

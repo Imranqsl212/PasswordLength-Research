@@ -1,0 +1,7 @@
+length,metric,observed_fraction,target,target_fraction,necessary_l1_radius_allowing_bin_count_change,necessary_l1_radius_fixed_bin_count,required_radius_fraction_of_released_mass,assumed_true_mass_for_tail,conditional_log10_tail_upper_at_required_radius,status
+15,frequency2,0.8196649646937308,length14_released_fraction,0.5344323691234951,1026915,1575732,0.06750369411182995,30425446,-49498.21919492988,"necessary distance; conditional mechanism bound, not attribution or a p-value"
+15,frequency2,0.8196649646937308,length16_released_fraction,0.46532255007701506,1335897,1957520,0.08781445635998236,30425446,-66240.66505469587,"necessary distance; conditional mechanism bound, not attribution or a p-value"
+15,frequency2,0.8196649646937308,illustrative_half,0.5,1177299,1765949,0.07738910384419673,30425446,-57646.900924529175,"necessary distance; conditional mechanism bound, not attribution or a p-value"
+15,positive_even,0.9637723593247596,length14_released_fraction,0.5637685896388299,1413106,2209771,0.09288974761454606,30425446,-70424.29873687371,"necessary distance; conditional mechanism bound, not attribution or a p-value"
+15,positive_even,0.9637723593247596,length16_released_fraction,0.48655596255035266,1773443,2636322,0.116576302611965,30425446,-89949.45785219596,"necessary distance; conditional mechanism bound, not attribution or a p-value"
+15,positive_even,0.9637723593247596,illustrative_half,0.5,1708035,2562052,0.11227674361782568,30425446,-86405.27113971571,"necessary distance; conditional mechanism bound, not attribution or a p-value"

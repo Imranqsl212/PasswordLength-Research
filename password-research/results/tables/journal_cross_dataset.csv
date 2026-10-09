@@ -1,0 +1,7 @@
+budget,linkedin_full_coverage,yahoo_all_coverage,yahoo_minus_linkedin_percentage_points,linkedin_mass,yahoo_mass,linkedin_bins,yahoo_bins,status
+10,0.012847575171598768,0.018851324614415448,0.600374944281668,174292189,69301337,57431283,33895873,"separate historical populations; overall concentration only, not length validation or temporal trend"
+100,0.02798135721389098,0.036247814381993815,0.8266457168102835,174292189,69301337,57431283,33895873,"separate historical populations; overall concentration only, not length validation or temporal trend"
+1000,0.07133686868778727,0.0831747878110923,1.1837919123305034,174292189,69301337,57431283,33895873,"separate historical populations; overall concentration only, not length validation or temporal trend"
+10000,0.14235147967531694,0.16547304130654794,2.3121561631231,174292189,69301337,57431283,33895873,"separate historical populations; overall concentration only, not length validation or temporal trend"
+100000,0.24010692756862442,0.28810929001268765,4.800236244406323,174292189,69301337,57431283,33895873,"separate historical populations; overall concentration only, not length validation or temporal trend"
+1000000,0.3767614451155926,0.4501723826771192,7.341093756152656,174292189,69301337,57431283,33895873,"separate historical populations; overall concentration only, not length validation or temporal trend"

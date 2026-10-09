@@ -1,0 +1,44 @@
+{
+  "all_lengths": {
+    "rho_length_frequency_distinct": -0.0929547958156835,
+    "rho_length_frequency_account": -0.2946712436996487,
+    "rho_length_frequency_midrank_distinct": 0.0929547958156835,
+    "rho_length_frequency_midrank_account": 0.2946712436996487,
+    "anonymous_distinct_bins": 20305262,
+    "released_account_mass": 78828083,
+    "length_groups": 2,
+    "inference": "descriptive exact weighted statistic on released histogram; no p-value or sampling CI"
+  },
+  "primary_6_to_16": {
+    "rho_length_frequency_distinct": -0.0929547958156835,
+    "rho_length_frequency_account": -0.2946712436996487,
+    "rho_length_frequency_midrank_distinct": 0.0929547958156835,
+    "rho_length_frequency_midrank_account": 0.2946712436996487,
+    "anonymous_distinct_bins": 20305262,
+    "released_account_mass": 78828083,
+    "length_groups": 2,
+    "inference": "descriptive exact weighted statistic on released histogram; no p-value or sampling CI"
+  },
+  "consistency": {
+    "full_account_mass": 174292189,
+    "length_account_mass": 78828083,
+    "difference": -95464106,
+    "full_distinct_bins": 57431283,
+    "length_distinct_bins": 20305262,
+    "yahoo_account_mass": 69301337,
+    "yahoo_distinct_bins": 33895873
+  },
+  "length_model": {
+    "model": "length_only_logistic",
+    "budget": 10000,
+    "coefficient_per_character": -0.5782560109373863,
+    "odds_ratio_per_character": 0.5608756751529043,
+    "intercept": -3.447662407663203,
+    "held_length_log_loss": 0.0045219322608535985,
+    "held_length_constant_log_loss": 0.0045219322561676715,
+    "account_vs_distinct": "distinct-bin weighted",
+    "anonymous_bins": 20305262.0,
+    "structural_model_status": "DATA UNAVAILABLE",
+    "validation": "leave one length group out; diagnostic interpolation/extrapolation, not independent human-password prediction"
+  }
+}
